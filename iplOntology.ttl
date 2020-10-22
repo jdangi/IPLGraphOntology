@@ -16,54 +16,54 @@
    rdfs:comment "To describe a player who has batting ability." ;
    rdfs:subClassOf <http://data.ipl.com/ont#Player> .
 <http://data.ipl.com/ont#Bonter> a <http://data.ipl.com/ont#Class> ;
-   <tag:stardog:studio:label> "Bonter" ;
-   rdfs:label "Bonter" ;
-   rdfs:comment "To describe player who has bonting ability" ;
+   <tag:stardog:studio:label> "Bowler" ;
+   rdfs:label "Bowler" ;
+   rdfs:comment "To describe player who has bowling ability" ;
    rdfs:subClassOf <http://data.ipl.com/ont#Player> .
 <http://data.ipl.com/ont#Spinner> a <http://data.ipl.com/ont#Class> ;
    <tag:stardog:studio:label> "Spinner" ;
    rdfs:label "Spinner" ;
-   rdfs:comment "To describe a style of bonting" ;
+   rdfs:comment "To describe a style of bowling" ;
    rdfs:subClassOf <http://data.ipl.com/ont#Bonter> .
 <http://data.ipl.com/ont#Pacer> a <http://data.ipl.com/ont#Class> ;
    <tag:stardog:studio:label> "Pacer" ;
    rdfs:label "Pacer" ;
-   rdfs:comment "To describe a style of bonting." ;
-   rdfs:subClassOf <http://data.ipl.com/ont#Bonter> .
+   rdfs:comment "To describe a style of bowling." ;
+   rdfs:subClassOf <http://data.ipl.com/ont#Bowler> .
 <http://data.ipl.com/ont#RightHanded> a <http://data.ipl.com/ont#Class> ;
    <tag:stardog:studio:label> "RightHanded" ;
    rdfs:label "RightHanded" ;
-   rdfs:comment "To describe Right Hand batting and bonting abilities." ;
-   rdfs:subClassOf <http://data.ipl.com/ont#Batsman> , <http://data.ipl.com/ont#Bonter> .
+   rdfs:comment "To describe Right Hand batting and bowling abilities." ;
+   rdfs:subClassOf <http://data.ipl.com/ont#Batsman> , <http://data.ipl.com/ont#Bowler> .
 <http://data.ipl.com/ont#LeftHanded> a <http://data.ipl.com/ont#Class> ;
    <tag:stardog:studio:label> "LeftHanded" ;
    rdfs:label "LeftHanded" ;
-   rdfs:comment "To describe Left Hand batting and bonting abilities." ;
-   rdfs:subClassOf <http://data.ipl.com/ont#Batsman> , <http://data.ipl.com/ont#Bonter> .
+   rdfs:comment "To describe Left Hand batting and bowling abilities." ;
+   rdfs:subClassOf <http://data.ipl.com/ont#Batsman> , <http://data.ipl.com/ont#Bowler> .
 <http://data.ipl.com/ont#FastPace> a <http://data.ipl.com/ont#Class> ;
    <tag:stardog:studio:label> "FastPace" ;
    rdfs:label "FastPace" ;
-   rdfs:comment "To describe ability to bont at fast speed." ;
+   rdfs:comment "To describe ability to bowl at fast speed." ;
    rdfs:subClassOf <http://data.ipl.com/ont#Pacer> .
 <http://data.ipl.com/ont#MediumPace> a <http://data.ipl.com/ont#Class> ;
    <tag:stardog:studio:label> "MediumPace" ;
    rdfs:label "MediumPace" ;
-   rdfs:comment "To describe ability to bont at Mediumspeed." ;
+   rdfs:comment "To describe ability to bowl at Mediumspeed." ;
    rdfs:subClassOf <http://data.ipl.com/ont#Pacer> .
 <http://data.ipl.com/ont#SlowPace> a <http://data.ipl.com/ont#Class> ;
    <tag:stardog:studio:label> "SlowPace" ;
    rdfs:label "SlowPace" ;
-   rdfs:comment "To describe ability to bont at slow speed." ;
+   rdfs:comment "To describe ability to bowl at slow speed." ;
    rdfs:subClassOf <http://data.ipl.com/ont#Spinner> .
 <http://data.ipl.com/ont#Stands> a <http://data.ipl.com/ont#ObjectProperty> ;
    <tag:stardog:studio:label> "Stands" ;
    rdfs:label "Stands" ;
    rdfs:comment "To describe the position or initial stanze of a player" ;
-   rdfs:domain <http://data.ipl.com/ont#Batsman> , <http://data.ipl.com/ont#Bonter> ;
-   rdfs:range <http://data.ipl.com/ont#Player> , <http://data.ipl.com/ont#Batsman> , <http://data.ipl.com/ont#Bonter> , <http://data.ipl.com/ont#Spinner> , <http://data.ipl.com/ont#Pacer> .
+   rdfs:domain <http://data.ipl.com/ont#Batsman> , <http://data.ipl.com/ont#Bowler> ;
+   rdfs:range <http://data.ipl.com/ont#Player> , <http://data.ipl.com/ont#Batsman> , <http://data.ipl.com/ont#Bowler> , <http://data.ipl.com/ont#Spinner> , <http://data.ipl.com/ont#Pacer> .
 <http://data.ipl.com/ont#Speed> a <http://data.ipl.com/ont#ObjectProperty> ;
    <tag:stardog:studio:label> "Speed" ;
    rdfs:label "Speed" ;
-   rdfs:comment "To describe Speed of  a bonter" ;
-   rdfs:domain <http://data.ipl.com/ont#Bonter> ;
+   rdfs:comment "To describe Speed of  a bowler" ;
+   rdfs:domain <http://data.ipl.com/ont#Bowler> ;
    rdfs:range <http://data.ipl.com/ont#Spinner> , <http://data.ipl.com/ont#Pacer> .
