@@ -1,3 +1,5 @@
+#<!-- Contributors: Monil Shah, Jay Dangi-->
+#<!-- added data to the Graph based on created Ontology-->
 @prefix ns1: <http://data.ipl.com/ont#> .
 @prefix ns2: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
